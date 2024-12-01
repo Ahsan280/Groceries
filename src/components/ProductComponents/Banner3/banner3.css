@@ -1,0 +1,7 @@
+.banner-3 {
+  background-image: url("../../../assets/product/Pics/31.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.4);
+}

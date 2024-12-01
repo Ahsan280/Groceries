@@ -1,0 +1,10 @@
+.contact-header {
+  background-image: url("../../../assets/contact/pic1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.4);
+  input {
+    color: black;
+  }
+}

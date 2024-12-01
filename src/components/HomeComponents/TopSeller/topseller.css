@@ -1,0 +1,78 @@
+.top-seller {
+  background-color: #674d00;
+  z-index: 10;
+}
+.seller-1 {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity */
+  background-blend-mode: darken;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+}
+.pineapple1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 700px;
+  width: 500px;
+  opacity: 0.5;
+}
+.pineapple2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1200px;
+  width: 700px;
+  opacity: 0.3;
+}
+.pineapple3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1000px;
+  width: 500px;
+  opacity: 0.3;
+}
+@media (max-width: 768px) {
+  .seller-2-image {
+    width: 200px !important;
+    margin-right: 10px !important;
+  }
+  .pineapple1 {
+    height: 500px;
+    width: 300px;
+    top: 10% !important;
+    left: -25% !important;
+  }
+  .pineapple2 {
+    height: 500px;
+    width: 300px;
+    top: 45% !important;
+  }
+  .pineapple3 {
+    height: 500px;
+    width: 450px;
+    left: 35% !important;
+    top: 88% !important;
+  }
+}

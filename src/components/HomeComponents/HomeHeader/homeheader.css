@@ -1,0 +1,24 @@
+.home-header {
+  background: url("../../../assets/home/Pic/back.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity */
+  background-blend-mode: darken;
+  position: relative;
+  z-index: 1; /* naloo */
+}
+
+.aloo {
+  z-index: 3; /* Above overlay */
+}
+
+@media (max-width: 768px) {
+  .basket {
+    width: 100% !important;
+  }
+}
+@media (min-width: 1500px) {
+  .res {
+    padding-left: 13rem !important;
+    padding-right: 13rem !important;
+  }
+}

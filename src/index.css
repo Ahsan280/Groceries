@@ -1,0 +1,56 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+
+.inria-sans-light {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 10;
+  font-style: normal;
+}
+
+.inria-sans-regular {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-sans-bold {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inria-sans-light-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.inria-sans-regular-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.inria-sans-bold-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,9 @@
+.login-header {
+  background-color: #e4e4e4;
+  height: 123vh;
+}
+@media (max-width: 767px) {
+  .login-header {
+    height: 100%;
+  }
+}

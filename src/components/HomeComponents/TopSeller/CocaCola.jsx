@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../../../assets/home/Pic/cocacola.PNG";
+import image1 from "../../../assets/home/Pic/cocacola.png";
 const CocaCola = () => {
   return (
     <div
